@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GoalGear | Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="brand">GoalGear</div>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="store.html">Store</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="page contact-page">
+    <h1 class="section-title">Contact</h1>
+
+    <p style="max-width: 800px; opacity:0.95;">
+      Questions about sizing, surfaces (firm ground vs turf), or restock dates? Send us a message below.
+    </p>
+
+    <form action="#" method="GET" style="max-width: 700px; margin-top: 18px;">
+      <label for="name">Name</label><br>
+      <input id="name" name="name" type="text" required
+             style="width:100%; padding:10px; margin:8px 0 16px;"><br>
+
+      <label for="email">Email</label><br>
+      <input id="email" name="email" type="email" required
+             style="width:100%; padding:10px; margin:8px 0 16px;"><br>
+
+      <label for="topic">Topic</label><br>
+      <select id="topic" name="topic" style="width:100%; padding:10px; margin:8px 0 16px;">
+        <option value="sizing">Sizing help</option>
+        <option value="product">Product question</option>
+        <option value="order">Order status</option>
+        <option value="other">Other</option>
+      </select><br>
+
+      <label for="message">Message</label><br>
+      <textarea id="message" name="message" rows="5" required
+                style="width:100%; padding:10px; margin:8px 0 16px;"></textarea><br>
+
+      <input type="submit" value="Send">
+    </form>
+
+    
+  </main>
+
+  
+</body>
+</html>
